@@ -23,6 +23,10 @@
 html {
     font-size: 62.5%;
     overflow-x: hidden;
+
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
 }
 
 body {
