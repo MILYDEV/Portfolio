@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 * {
     margin: 0;
@@ -188,6 +188,7 @@ span {
 .about-img {
     width: 35vw;
 }
+
 
 .heading {
     text-align: center;
@@ -390,7 +391,7 @@ span {
     align-items: center;
     padding: 0.8rem;
     background: var(--main-color);
-    border-radius: 25px;
+    border-radius: 7px;
     transition: 0.5s ease;
 }
 
@@ -553,3 +554,30 @@ span {
         width: 100%;
     }
 }
+
+
+
+
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--main-color) ;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+    border-radius: 8px;
+    
+  }

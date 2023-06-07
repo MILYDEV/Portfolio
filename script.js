@@ -67,7 +67,7 @@ ScrollReveal().reveal('.home-content p, .about-content', { origin: 'left' });
 /* ==================== Multiple Text ==================== */
 
 const typed = new Typed('.multiple-text', {
-    strings: ['Frontend Developer', 'EN - ID Translator', 'Digital Marketer'],
+    strings: ['Frontend Developer', 'En - Id Translator', 'Digital Marketer'],
     typespeed: 1000,
     backspeed: 100,
     backDelay: 2000,
