@@ -96,6 +96,12 @@ section {
     animation: floatImage 4s ease-in-out infinite;
 }
 
+.home-img img {
+    border-bottom: 1rem solid var(--main-color);
+    border-radius: 2rem;
+    
+}
+
 @keyframes floatImage {
     0% {
         transform: translateY(0);
@@ -189,6 +195,12 @@ span {
     width: 35vw;
 }
 
+.about-img img {
+    border-radius: 50%;
+    border: 1rem solid var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+}
+
 
 .heading {
     text-align: center;
@@ -251,22 +263,22 @@ span {
     margin: 1rem 0 3rem;
 }
 
-.portofolio {
+.portfolio {
     background: var(--second-bg-color);
 }
 
-.portofolio h2 {
+.portfolio h2 {
     margin-bottom: 4rem;
 }
 
-.portofolio-container {
+.portfolio-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     gap: 2.5rem;
 }
 
-.portofolio-box {
+.portfolio-box {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem var(--bg-color);
@@ -276,18 +288,18 @@ span {
     height: 25rem;
 }
 
-.portofolio-box img {
+.portfolio-box img {
     width: 100%;
     object-fit: cover;
     transition: 0.5s ease;
 }
 
-.portofolio-box:hover img {
+.portfolio-box:hover img {
     transform: scale(1.1);
     transition: 0.5s ease;
 }
 
-.portofolio-box .portofolio-layer {
+.portfolio-box .portfolio-layer {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -304,21 +316,21 @@ span {
     transition: 0.5s ease;
 }
 
-.portofolio-box:hover .portofolio-layer {
+.portfolio-box:hover .portfolio-layer {
     transform: translateY(0);
     transition: 0.5s ease;
 }
 
-.portofolio-layer h4 {
+.portfolio-layer h4 {
     font-size: 3rem;
 }
 
-.portofolio-layer p {
+.portfolio-layer p {
     font-size: 1.6rem;
     margin: 0.3rem 0 1rem;
 }
 
-.portofolio-layer a {
+.portfolio-layer a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -326,7 +338,7 @@ span {
     height: 5rem;
 }
 
-.portofolio-layer a i {
+.portfolio-layer a i {
     font-size: 2rem;
     color: var(--text-color);
 }
@@ -400,7 +412,7 @@ span {
 }
 
 .footer-iconTop a i {
-    font-size: 2.4rem;
+    font-size: 2rem;
     color: var(--second-bg-color);
 }
 
@@ -449,13 +461,13 @@ span {
         display: none;
     }
 
-    .portofolio-container {
+    .portfolio-container {
         text-align: center;
         align-items: center;
         justify-content: center;
     }
 
-    .portofolio-box {
+    .portfolio-box {
         width: 100%;
     }
 
@@ -478,7 +490,7 @@ span {
         padding-bottom: 7rem;
     }
 
-    .portofolio {
+    .portfolio {
         padding-bottom: 7rem;
     }
 
@@ -530,17 +542,17 @@ span {
         margin-bottom: 3rem;
     }
 
-    .portofolio h2 {
+    .portfolio h2 {
         margin-bottom: 3rem;
     }
 
-    .portofolio-container {
+    .portfolio-container {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media (max-width: 617px) {
-    .portofolio-container {
+    .portfolio-container {
         grid-template-columns: 1fr;
     }
 }
